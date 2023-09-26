@@ -1,13 +1,15 @@
-import Link from "next/link";
+// app/components/StudentInfo.js
+import React from 'react';
+import Link from 'next/link';
 
-export default function studentInfo(){
-  return(
+const StudentInfo = () => {
+  return (
     <div>
-      <h2>Name:Tansima Kamal Fiana</h2>
-      <h2>Course Section: CPRG 306 A</h2>
-      <Link href="https://github.com/tansimafiana/cprg306-assignments">Github Repository</Link>
+      <p>Tansima Kamal Fiana</p>
+      <p>Your Course Section, e.g., CPRG 306 A</p>
+      <Link href="https://github.com/tansimafiana/cprg306-assignments">Link to GitHub</Link>
     </div>
   );
-     
-  
-}
+};
+
+export default StudentInfo;
