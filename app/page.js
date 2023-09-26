@@ -13,9 +13,17 @@ const HomePage = () => {
       
       <studentInfo />
       <Link href="/week2">week2</Link>
+      <ul>
+  
+  <li><Link href="/week3">week3</Link></li> {/* Add this line */}
+  {/* Other links */}
+</ul>
+
     </div>
   );
 };
+
+
 
 export default HomePage;
 
