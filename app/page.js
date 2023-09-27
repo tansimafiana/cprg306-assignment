@@ -10,6 +10,11 @@ const HomePage = () => {
     <div>
       <h1>CPRG 306: Web Development 2 - Assignments</h1>
       <p>Tansima Kamal Fiana</p>
+      <ul>
+  
+  <li><Link href="https://github.com/tansimafiana">Github</Link></li> {/* Add this line */}
+  {/* Other links */}
+</ul>
       
       <studentInfo />
       <Link href="/week2">week2</Link>
