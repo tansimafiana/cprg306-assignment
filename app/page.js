@@ -30,6 +30,7 @@ const HomePage = () => {
   {/* Other links */}
   <li><Link href="/week7">week7</Link></li> {/* Add this line */}
   <li><Link href="/week8">week8</Link></li> {/* Add this line */}
+  <li><Link href="/week10">week10</Link></li> {/* Add this line */}
     </div>
    
   );
